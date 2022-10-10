@@ -29,5 +29,16 @@ console.log(a +b); // 4
 const d = c + a;
 console.log(d); //26
 
-d = 5; //will cause error
+// d = 5; will cause error
 
+function sayHey(){
+    console.log("Say hey!");
+}
+
+function conversation(){
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodbye");
+}
+
+conversation();
