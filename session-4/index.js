@@ -53,8 +53,8 @@ console.log(biography(personA));
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-const x = 6;
-const y = 4;
+let x = 6;
+let y = 4;
 
 const addition = x + y;
 
@@ -81,8 +81,10 @@ console.log("Increment x " + increment);
 const decrement = y--;
 console.log("decrement y " + decrement); 
 
+const age = 10;
+const drivingAge = 18;
 
-
+console.log("Are you old enough to drive?" + age < drivingAge);
 
 
 
